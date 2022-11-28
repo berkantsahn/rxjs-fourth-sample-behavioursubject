@@ -1,7 +1,7 @@
 import './style.css';
 import { of, map, Observable, Subject, BehaviorSubject } from 'rxjs';
 
-//observable, subject, behaviorSubject
+//observable, subject, behaviourSubject
 
 const observable = new Observable<string>((subscriber) => {
   subscriber.next('1');
